@@ -932,9 +932,35 @@
     gap: 8px;
   }
   
-  .trust-badges-inline {
+  .opportunity-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .course-preview-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .cta-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .final-value-props {
+    grid-template-columns: 1fr;
+  }
+  
+  .final-guarantee {
     flex-direction: column;
-    gap: 16px;
+    padding: 32px;
+    text-align: center;
+  }
+  
+  .guarantee-icon {
+    margin: 0 auto;
+  }
+  
+  .cta-stat-number {
+    font-size: 36px;
   }
 }
 
