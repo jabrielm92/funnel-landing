@@ -62,17 +62,17 @@ const FunnelLanding = () => {
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHN8ZW58MHx8fHwxNzYyMzY3MjEwfDA&ixlib=rb-4.1.0&q=85'
     },
     {
-      name: 'Sophia Chen',
+      name: 'Michael Chen',
       result: '$12,200 in 30 Days',
       timeframe: 'First deal closed Day 9',
       quote: "The dashboard alone is worth 10x the course price. I closed my first deal in 9 days with a dental office. They're thrilled, I'm making recurring revenue, and I work 4 hours a week on this.",
       image: 'https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHN8ZW58MHx8fHwxNzYyMzY3MjEwfDA&ixlib=rb-4.1.0&q=85'
     },
     {
-      name: 'Derek Washington',
+      name: 'Deidra Mathews',
       result: '$6,800 in 60 Days',
       timeframe: 'First deal closed Day 14',
-      quote: "I was skeptical about 'zero to deal in 14 days' but it actually works. The outreach templates and demo scripts are gold. I hit my first deal exactly on day 14. Life-changing.",
+      quote: "I was skeptical about the timeline but it actually works. The outreach templates and demo scripts are gold. Hit my first deal exactly on day 14. Life-changing.",
       image: 'https://images.unsplash.com/photo-1657128344786-360c3f8e57e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHN8ZW58MHx8fHwxNzYyMzY3MjEwfDA&ixlib=rb-4.1.0&q=85'
     }
   ];
