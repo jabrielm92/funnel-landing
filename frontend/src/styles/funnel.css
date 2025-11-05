@@ -698,9 +698,17 @@
   margin: 64px 0;
 }
 
+.embla-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .embla {
   overflow: hidden;
   border-radius: 16px;
+  flex: 1;
 }
 
 .embla__container {
@@ -729,6 +737,48 @@
 .dashboard-carousel-info {
   padding: 32px;
   text-align: center;
+}
+
+/* Carousel Arrow Buttons */
+.embla__button {
+  background: var(--brand-primary);
+  border: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 128, 85, 0.2);
+}
+
+.embla__button:hover {
+  background: var(--brand-secondary);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 128, 85, 0.3);
+}
+
+.embla__button:active {
+  transform: scale(0.95);
+}
+
+.embla__button-icon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+.embla__button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.embla__button:disabled:hover {
+  transform: none;
+  background: var(--brand-primary);
 }
 
 /* CTA Enhancements */
