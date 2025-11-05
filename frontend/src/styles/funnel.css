@@ -1186,6 +1186,34 @@
   .bonus-icon {
     margin: 0 auto;
   }
+  
+  .embla-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .embla__button {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .embla__button-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .embla__button--prev,
+  .embla__button--next {
+    position: relative;
+  }
+  
+  /* Show arrows side by side on mobile */
+  .embla-wrapper::after {
+    content: '';
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 810px) and (max-width: 1024px) {
