@@ -199,6 +199,7 @@
 .video-container {
   margin: 48px auto;
   max-width: 800px;
+  position: relative;
 }
 
 .video-placeholder {
@@ -209,6 +210,24 @@
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* Video Player Styles */
+.video-player,
+.video-iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-medium);
+}
+
+.video-player {
+  background: #000;
+}
+
+.video-iframe {
+  border: none;
 }
 
 .video-placeholder-content {
