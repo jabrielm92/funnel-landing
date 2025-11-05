@@ -40,16 +40,17 @@ const FunnelLanding = () => {
         source: 'course-landing'
       });
 
+      console.log('Lead saved successfully to Firebase');
       toast.success('Information saved! Redirecting to checkout...');
       
-      // Redirect to checkout with query params
+      // Redirect to checkout without query params (clean URL)
       setTimeout(() => {
-        const checkoutUrl = `https://arisolutionsinc.vercel.app/checkout/course-001?name=${encodeURIComponent(formData.name)}&email=${encodeURIComponent(formData.email)}&phone=${encodeURIComponent(formData.phone)}&source=course-landing`;
-        window.location.href = checkoutUrl;
+        window.location.href = 'https://arisolutionsinc.vercel.app/checkout/course-001';
       }, 1500);
     } catch (error) {
-      console.error('Error saving lead:', error);
-      toast.error('Something went wrong. Please try again.');
+      console.error('Firebase Error:', error);
+      console.error('Error details:', error.message);
+      toast.error(`Error: ${error.message}. Please try again or contact support.`);
       setIsSubmitting(false);
     }
   };
