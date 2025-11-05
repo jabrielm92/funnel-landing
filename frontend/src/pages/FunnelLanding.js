@@ -208,14 +208,25 @@ const FunnelLanding = () => {
               </div>
               <div className="course-preview-info">
                 <h2 className="heading-large">Why This Course Is Only <span className="text-urgent text-bold">$27</span></h2>
-                <p className="body-large">
-                  We're <span className="text-bold">not</span> trying to get rich selling courses. We already make money providing <span className="text-bold">AI automation solutions to companies.</span>
+                
+                <p className="body-large text-bold">
+                  We're not trying to get rich selling courses.
                 </p>
+                
                 <p className="body-standard">
-                  Our mission? <span className="text-bold">Change lives and empower entrepreneurs.</span> We want to put this system in the hands of <span className="text-bold">as many people as possible</span> — not break the bank with a $997 course that sits on a shelf.
+                  Automation-Ready Income Solutions already generates <span className="text-bold">six figures annually</span> building custom AI automation systems for businesses. We don't need to charge $997 or $1,997 for a course to survive. That's the old-school guru playbook — price it high to "look premium" while the content sits unwatched on someone's hard drive.
                 </p>
+                
                 <p className="body-standard">
-                  At $27, there's <span className="text-urgent text-bold">no excuse</span> not to start. We're removing every barrier between you and your first deal. The only question is: <span className="text-bold">will you take action?</span>
+                  Our mission is different: <span className="text-bold">We want to create 1,000 successful AI consultants</span> who go on to build real, profitable businesses. When you succeed, you become living proof that <span className="text-bold">this model works.</span> You become a referral source. You become part of a network where we all rise together.
+                </p>
+                
+                <p className="body-standard">
+                  At <span className="text-urgent text-bold">$27</span>, we've removed every excuse. You can't say "it's too expensive." You can't say "what if it doesn't work for me?" You can't rationalize putting it off another month. For the price of <span className="text-bold">two takeout meals</span>, you get lifetime access to a proven system, all templates, all tools, all future updates, and the exact playbook that's generated millions in revenue for our students.
+                </p>
+                
+                <p className="body-standard">
+                  <span className="text-bold">This is your chance.</span> We're betting $27 that you'll take action. That you'll follow the system. That you'll close your first deal and never look back. The only question left is: will you bet on yourself?
                 </p>
               </div>
             </div>
