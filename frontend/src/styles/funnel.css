@@ -84,6 +84,19 @@
   color: var(--text-secondary);
 }
 
+/* Text Utilities */
+.text-bold {
+  font-weight: 600;
+}
+
+.text-urgent {
+  color: var(--text-urgent);
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* Buttons - Pill/Capsule Style */
 .btn-primary {
   background: var(--brand-primary);
