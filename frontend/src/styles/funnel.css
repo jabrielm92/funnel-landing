@@ -1,6 +1,16 @@
 /* Funnel Landing Page Styles - Following Pastel AI Design Guidelines */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* Hide Emergent Badge */
+a[href*="emergent"],
+a[id*="emergent"],
+#emergent-badge,
+[class*="emergent-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
 /* CSS Variables */
 :root {
   /* Backgrounds */
