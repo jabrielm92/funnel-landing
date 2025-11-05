@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { motion } from 'motion/react';
-import { X, CheckCircle2, Shield, Clock, TrendingUp, Users, DollarSign, Zap, Award, Lock, ArrowRight, BarChart3, Calendar, PhoneCall, Star, Briefcase, Target, TrendingDown } from 'lucide-react';
+import { X, CheckCircle2, Shield, Clock, TrendingUp, Users, DollarSign, Zap, Award, Lock, ArrowRight, BarChart3, Calendar, PhoneCall, Star, Briefcase, Target, TrendingDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '../components/ui/dialog';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
@@ -15,7 +15,15 @@ const FunnelLanding = () => {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', phone: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [emblaRef] = useEmblaCarousel({ loop: true, align: 'center' });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center' });
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
