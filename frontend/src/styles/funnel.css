@@ -609,6 +609,224 @@
   color: var(--text-muted);
 }
 
+/* AI Opportunity Section */
+.opportunity-section {
+  padding: 80px 0;
+  background: var(--bg-primary);
+}
+
+.opportunity-intro {
+  max-width: 800px;
+  margin: 16px auto 64px;
+}
+
+.opportunity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.opportunity-card {
+  background: var(--bg-primary);
+  border: 2px solid var(--border-medium);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.opportunity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.opportunity-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 24px;
+}
+
+.opportunity-icon-problem {
+  color: var(--text-urgent);
+}
+
+.opportunity-icon-solution {
+  color: var(--brand-primary);
+}
+
+.opportunity-icon-opportunity {
+  color: #F59E0B;
+}
+
+/* Course Preview Section */
+.course-preview-section {
+  padding: 80px 0;
+  background: var(--bg-light);
+}
+
+.course-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.course-preview-image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.course-preview-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.course-preview-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Success Stories Enhancements */
+.success-avatar-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--brand-primary);
+}
+
+.success-stars {
+  display: flex;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.star-icon {
+  width: 18px;
+  height: 18px;
+  color: #F59E0B;
+}
+
+/* Dashboard Carousel */
+.dashboard-carousel-container {
+  margin: 64px 0;
+}
+
+.embla {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.embla__container {
+  display: flex;
+  gap: 24px;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.dashboard-carousel-item {
+  background: var(--bg-primary);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.dashboard-carousel-info {
+  padding: 32px;
+  text-align: center;
+}
+
+/* CTA Enhancements */
+.cta-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  margin: 48px 0;
+}
+
+.cta-stat {
+  text-align: center;
+  padding: 32px;
+  background: var(--bg-primary);
+  border-radius: 16px;
+  border: 2px solid var(--border-medium);
+}
+
+.cta-stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--brand-primary);
+  margin-bottom: 12px;
+}
+
+.cta-stat-label {
+  font-size: 16px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.final-value-props {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 48px 0;
+}
+
+.value-prop-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bg-primary);
+  border-radius: 12px;
+  border: 1px solid var(--border-medium);
+}
+
+.value-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--brand-primary);
+  flex-shrink: 0;
+}
+
+.final-guarantee {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px;
+  background: var(--bg-primary);
+  border-radius: 16px;
+  border: 3px solid var(--brand-primary);
+  margin-top: 48px;
+  text-align: left;
+}
+
+.guarantee-icon {
+  width: 64px;
+  height: 64px;
+  color: var(--brand-primary);
+  flex-shrink: 0;
+}
+
 /* Modal Styles */
 .modal-content {
   max-width: 500px;
