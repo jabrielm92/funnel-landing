@@ -123,19 +123,10 @@ const FunnelLanding = () => {
               <p className="body-large hero-description">
                 The exact system to package and sell a <span className="text-bold">high-demand AI service</span> that local businesses <span className="text-bold text-urgent">desperately need</span> — starting with <span className="text-bold">zero experience.</span>
               </p>
-
-              {/* VIDEO PLACEHOLDER */}
-              <div className="video-container">
-                <div className="video-placeholder">
-                  <div className="video-placeholder-content">
-                    <div className="video-play-icon">
-                      <div className="play-triangle"></div>
-                    </div>
-                    <p className="video-placeholder-text">⬆️ ADD 60-SECOND VIDEO HERE ⬆️</p>
-                    <p className="video-placeholder-subtext">Replace this placeholder in the code</p>
-                  </div>
-                </div>
-              </div>
+              
+              <p className="body-large hero-description-extended">
+                While everyone's scrambling for ChatGPT gigs, you'll be building <span className="text-bold">automated appointment booking systems</span> that businesses will pay <span className="text-bold">$650-$2,500 to implement</span> plus <span className="text-bold">$350-$500 every single month.</span> No coding required. Just connecting proven tools that <span className="text-bold">work together seamlessly.</span> This is the AI opportunity hiding in plain sight — and you're about to master it in just 14 days.
+              </p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
