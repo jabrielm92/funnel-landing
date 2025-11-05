@@ -278,6 +278,64 @@ const FunnelLanding = () => {
         </div>
       </section>
 
+      {/* Tech Stack Section */}
+      <section className="tech-stack-section">
+        <div className="container">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={springConfig}
+            className="tech-stack-content"
+          >
+            <h2 className="heading-large text-center">Build Your ABA With <span className="text-bold">Zero Coding</span></h2>
+            <p className="body-large text-center text-secondary">
+              The exact tools and stack we teach you — <span className="text-bold">all free or minimal cost to start</span>
+            </p>
+
+            <div className="tech-stack-grid">
+              <div className="tech-stack-item">
+                <div className="tech-icon">📊</div>
+                <h3 className="body-standard text-bold">Airtable</h3>
+                <p className="body-small text-secondary">Your single source of truth for all client data and automation logic</p>
+              </div>
+              <div className="tech-stack-item">
+                <div className="tech-icon">📅</div>
+                <h3 className="body-standard text-bold">Calendly</h3>
+                <p className="body-small text-secondary">Scheduling engine that syncs with your calendar in real-time</p>
+              </div>
+              <div className="tech-stack-item">
+                <div className="tech-icon">📝</div>
+                <h3 className="body-standard text-bold">Forms</h3>
+                <p className="body-small text-secondary">Tally, Typeform, or Webflow for beautiful booking interfaces</p>
+              </div>
+              <div className="tech-stack-item">
+                <div className="tech-icon">⚡</div>
+                <h3 className="body-standard text-bold">Zapier</h3>
+                <p className="body-small text-secondary">Your automation hub that connects everything together</p>
+              </div>
+              <div className="tech-stack-item">
+                <div className="tech-icon">📧</div>
+                <h3 className="body-standard text-bold">Email/SMS</h3>
+                <p className="body-small text-secondary">Gmail, SendGrid, Postmark, or Twilio for automated communications</p>
+              </div>
+              <div className="tech-stack-item">
+                <div className="tech-icon">💻</div>
+                <h3 className="body-standard text-bold">Dashboard</h3>
+                <p className="body-small text-secondary">Professional client portal and analytics system included</p>
+              </div>
+            </div>
+
+            <div className="tech-stack-value">
+              <h3 className="heading-medium">No Coding. No Complex Setup. No Expensive Developers.</h3>
+              <p className="body-large">
+                The course walks you through <span className="text-bold">connecting each tool step-by-step</span>. You'll have a working system in days, not months. We show you exactly which buttons to click, what to configure, and how to test everything before going live with your first client.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Dashboard Carousel Section */}
       <section className="dashboard-section">
         <div className="container">
@@ -292,6 +350,7 @@ const FunnelLanding = () => {
             <p className="body-large text-secondary">
               Professional business management system — <span className="text-bold text-urgent">FREE for 30 days</span>, then just <span className="text-bold">$19.99/month</span>
             </p>
+            <p className="body-small text-muted">Swipe or drag to explore all features</p>
           </motion.div>
 
           <div className="dashboard-carousel-container">
@@ -309,6 +368,11 @@ const FunnelLanding = () => {
                   </div>
                 ))}
               </div>
+            </div>
+            <div className="carousel-dots">
+              <span className="dot"></span>
+              <span className="dot"></span>
+              <span className="dot"></span>
             </div>
           </div>
 
