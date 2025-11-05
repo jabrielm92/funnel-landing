@@ -71,7 +71,7 @@ const FunnelLanding = () => {
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHN8ZW58MHx8fHwxNzYyMzY3MjEwfDA&ixlib=rb-4.1.0&q=85'
     },
     {
-      name: 'Michael Chen',
+      name: 'Michael Coy',
       result: '$12,200 in 30 Days',
       timeframe: 'First deal closed Day 9',
       quote: "The dashboard alone is worth 10x the course price. I closed my first deal in 9 days with a dental office. They're thrilled, I'm making recurring revenue, and I work 4 hours a week on this.",
