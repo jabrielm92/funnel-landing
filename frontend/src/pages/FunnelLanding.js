@@ -363,21 +363,40 @@ const FunnelLanding = () => {
           </motion.div>
 
           <div className="dashboard-carousel-container">
-            <div className="embla" ref={emblaRef}>
-              <div className="embla__container">
-                {dashboardImages.map((dashboard, index) => (
-                  <div className="embla__slide" key={index}>
-                    <div className="dashboard-carousel-item">
-                      <img src={dashboard.url} alt={dashboard.title} />
-                      <div className="dashboard-carousel-info">
-                        <h3 className="heading-medium">{dashboard.title}</h3>
-                        <p className="body-standard text-secondary">{dashboard.description}</p>
+            <div className="embla-wrapper">
+              <button 
+                className="embla__button embla__button--prev" 
+                onClick={scrollPrev}
+                aria-label="Previous dashboard image"
+              >
+                <ChevronLeft className="embla__button-icon" />
+              </button>
+              
+              <div className="embla" ref={emblaRef}>
+                <div className="embla__container">
+                  {dashboardImages.map((dashboard, index) => (
+                    <div className="embla__slide" key={index}>
+                      <div className="dashboard-carousel-item">
+                        <img src={dashboard.url} alt={dashboard.title} />
+                        <div className="dashboard-carousel-info">
+                          <h3 className="heading-medium">{dashboard.title}</h3>
+                          <p className="body-standard text-secondary">{dashboard.description}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
+
+              <button 
+                className="embla__button embla__button--next" 
+                onClick={scrollNext}
+                aria-label="Next dashboard image"
+              >
+                <ChevronRight className="embla__button-icon" />
+              </button>
             </div>
+            
             <div className="carousel-dots">
               <span className="dot"></span>
               <span className="dot"></span>
