@@ -1114,6 +1114,28 @@
   .cta-stat-number {
     font-size: 36px;
   }
+  
+  .tech-stack-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .course-modules {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+  
+  .automation-item {
+    flex-direction: column;
+  }
+  
+  .included-bonus {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .bonus-icon {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 810px) and (max-width: 1024px) {
